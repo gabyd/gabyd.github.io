@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immigration | Gabriela D&#39;Souza</title>
+    <link>/tags/immigration/</link>
+      <atom:link href="/tags/immigration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Immigration</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Immigration</title>
+      <link>/tags/immigration/</link>
+    </image>
+    
+    <item>
+      <title>Skill mismatch and migrants</title>
+      <link>/project/skilled_permanent_migration/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/skilled_permanent_migration/</guid>
+      <description>&lt;p&gt;In 2020, CEDA will release a report that will focus on Australia&amp;rsquo;s permanent skilled migration program.
+In CEDA’s 2019 report, the Effects of Temporary Migration, we looked at Australia’s temporary skilled migration system and the effects of recent migrants on local workers.&lt;/p&gt;
+&lt;p&gt;CEDA’s second report on immigration takes a different angle – does our permanent migration system effectively utilise the skills of migrants.&lt;/p&gt;
+&lt;p&gt;This report will look at the extent of skill mismatch in the permanent migrant labour market, particularly among permanent skilled migrants and will identify policies that would help alleviate this issue. It will also make recommendations on how to improve the process through which skills shortages are identified and communicated to prospective migrants.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

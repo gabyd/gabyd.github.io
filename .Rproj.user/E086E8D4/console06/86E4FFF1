@@ -1,0 +1,466 @@
+brew install hugo
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/Documents/gabyd.github.io[?1034h(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ brew install hugo
+brew install hugo[33mWarning:[0m hugo 0.67.0 is already installed and up-to-date
+To reinstall 0.67.0, run `brew reinstall hugo`
+]0;~/Documents/gabyd.github.io(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ brew install hugo[K(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ brew install hugocurl 'https://services.realestate.c om.au/services/listings/summaries/search?query=\{%22channel%22:%22rent%22,%22filters%22:\{%22surroundingSuburbs%22: %22true%22,%22excludeTier2%22:%22true%22,%22geoPrecision%22:%22address%22,%22excludeAddressHidden%22:%22true%22\},% 22boundingBoxSearch%22:\[-37.861239011682045,144.97354236818848,-37.78232035301419,145.09181705690918\],%22pageSize %22:%22500%22\}' -H 'authority: services.realestate.com.au' -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X  10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36' -H 'sec-fetch-dest: empty' -H ' accept: /' -H 'origin: https://www.realestate.com.au' -H 'sec-fetch-site: same-site' -H 'sec-fetch-mode: cors' -H ' referer: https://www.realestate.com.au/rent/in-richmond,+vic+3121%3b+hawthorn,+vic+3122%3b+burnley,+vic+3121%3b+cre morne,+vic+3121/map-1?activeSort=list-date' -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' --compressed
+Updating Homebrew...
+[34m==>[0m [1mAuto-updated Homebrew![0m
+Updated 3 taps (homebrew/core, homebrew/cask and homebrew/services).
+[34m==>[0m [1mNew Formulae[0m
+azcopy                       dhall-yaml                   nef                          vpn-slice
+bnfc                         hdt                          oil                          xclogparser
+ccheck                       hsd                          publish
+cdk8s                        mockolo                      swift-format
+container-structure-test     mtoc                         tlx
+[34m==>[0m [1mUpdated Formulae[0m
+[1mgcc [32m✔[0m[0m                        flatbuffers                  luit                         scala@2.12
+[1mgit [32m✔[0m[0m                        flintrock                    lxc                          sceptre
+[1mhugo [32m✔[0m[0m                       flow                         mackup                       scour
+[1mpyenv [32m✔[0m[0m                      fluent-bit                   magic-wormhole               sdedit
+[1mxz [32m✔[0m[0m                         flyway                       mailutils                    sdl2
+activemq                     fn                           mariadb-connector-odbc       selenium-server-standalone
+advancemenu                  folly                        mbedtls                      serf
+agda                         fonttools                    mdbook                       serverless
+algernon                     fop                          mdv                          sfk
+aliyun-cli                   fork-cleaner                 mednafen                     ship
+angular-cli                  fq                           meilisearch                  simg2img
+anime-downloader             frege                        memcached                    sjk
+ansible                      frpc                         menhir                       skaffold
+ansible-lint                 frps                         mesa                         skinny
+antibody                     frugal                       metabase                     sn0int
+apache-brooklyn-cli          futhark                      micronaut                    snapcraft
+apache-drill                 fzf                          miller                       solr
+appium                       gambit-scheme                mimic                        sonar-scanner
+arangodb                     gammaray                     mingw-w64                    sonarqube
+arp-sk                       gandi.cli                    minikube                     spades
+arping                       gatsby-cli                   minimal-racket               spigot
+arpoison                     gauge                        minio                        spirv-cross
+asciinema                    gedit                        minio-mc                     sql-translator
+asdf                         genometools                  miniserve                    sqlparse
+assh                         geos                         minizinc                     ssdb
+astrometry-net               gerbil-scheme                minizip2                     ssh-audit
+atdtool                      gh                           mitmproxy                    sshuttle
+audacious                    ghostscript                  mkdocs                       sslsplit
+automake                     gimme-aws-creds              mkl-dnn                      starship
+aws-cdk                      git-annex                    mmark                        statik
+aws-elasticbeanstalk         git-gui                      mmctl                        stella
+aws-okta                     git-plus                     mmseqs2                      stellar-core
+aws-shell                    git-review                   moarvm                       stgit
+awscli                       git-revise                   molecule                     stolon
+awscli@1                     git-standup                  monero                       streamlink
+awscurl                      git-trim                     mongo-cxx-driver             stress-ng
+awslogs                      gitlab-gem                   mongo-orchestration          stubby
+awsume                       gitlab-runner                mosquitto                    supervisor
+azure-cli                    gitmoji                      mpd                          suricata
+azure-storage-cpp            gitup                        mycli                        svtplay-dl
+babel                        gitversion                   mypy                         swagger-codegen
+bacula-fd                    glances                      mysql-connector-c++          swift-protobuf
+balena-cli                   glib                         n                            swift-sh
+ballerina                    glibmm                       nagios-plugins               swiftformat
+bandcamp-dl                  glooctl                      nano                         switch-lan-play
+bash-completion@2            gmime                        nanopb-generator             syncthing
+bat                          gmsh                         nativefier                   talisman
+bazel                        gnupg                        navi                         tbb
+benthos                      go@1.13                      nbdime                       tbox
+bind                         golang-migrate               neomutt                      tccutil
+bitrise                      goreleaser                   netlify-cli                  tcptraceroute
+bitwarden-cli                grafana                      netpbm                       tektoncd-cli
+black                        gromacs                      newrelic-cli                 teleport
+blink1                       grpcurl                      nift                         terraform
+bnd                          gsoap                        node                         terraformer
+broot                        gtranslator                  node-build                   terragrunt
+buildifier                   guile                        node-sass                    terrahelp
+buildkit                     hapi-fhir-cli                nodeenv                      terrahub
+bundletool                   helm                         now-cli                      texmath
+bzt                          helm@2                       nqp                          tflint
+c-ares                       helmfile                     nrpe                         tgui
+calicoctl                    help2man                     nsd                          thefuck
+cargo-c                      hiredis                      nushell                      tika
+cargo-completion             homeassistant-cli            oauth2l                      tiny-fugue
+cartridge-cli                hostess                      ocaml-findlib                tinyxml2
+cassandra-cpp-driver         howdoi                       ocrmypdf                     todoman
+cassandra@2.2                httpie                       octant                       tokei
+catch2                       ibex                         ode                          tomcat
+ccache                       igraph                       odpi                         tomcat@7
+cfn-lint                     imgproxy                     okteto                       tomcat@8
+chakra                       immortal                     onnxruntime                  tomee-plume
+cheat                        inlets                       opa                          tomee-plus
+circleci                     inspircd                     open-image-denoise           tomee-webprofile
+cmake                        instalooter                  openfortivpn                 topgrade
+cobalt                       internetarchive              operator-sdk                 tor
+codemod                      ios-sim                      osc                          tox
+codespell                    ipopt                        osquery                      traefik
+collectd                     jam                          overmind                     traefik@1
+comby                        jbig2dec                     packetq                      trafficserver
+commandbox                   jenkins                      pagmo                        translate-toolkit
+composer                     jenkins-job-builder          pandoc                       trash-cli
+conan                        jfrog-cli-go                 pangomm                      travis
+conjure-up                   jinja2-cli                   parallel                     twarc
+consul                       jrnl                         pdnsrec                      twine-pypi
+cookiecutter                 juise                        pgbadger                     txr
+cpl                          juju                         pgcli                        txt2tags
+cppman                       juju-wait                    pgloader                     u-boot-tools
+crc                          just                         pgroonga                     urh
+csvkit                       k3d                          php                          v2ray-plugin
+csvtomd                      k6                           php@7.2                      v8
+curl                         kafka                        php@7.3                      vala
+curl-openssl                 kallisto                     phpmyadmin                   vale
+cython                       katago                       phpstan                      varnish
+dartsim                      kcptun                       pipenv                       vault-cli
+dashing                      keepkey-agent                planck                       vegeta
+deno                         khard                        plantuml                     velero
+dependency-check             kibana                       platformio                   vice
+detekt                       knot                         pmd                          viewvc
+devspace                     knot-resolver                pnpm                         vim
+diceware                     krew                         poppler                      virgil
+diffr                        ktoblzcheck                  powerman                     vowpal-wabbit
+dita-ot                      kubecfg                      pre-commit                   vsts-cli
+dnscontrol                   kubeprod                     prettier                     vulkan-headers
+dnscrypt-proxy               kubernetes-cli               procs                        wakatime-cli
+docbook                      kubeseal                     proselint                    wal2json
+docbook-xsl                  kumo                         protoc-gen-go                wapm
+docfx                        lammps                       psc-package                  wartremover
+docker                       lazygit                      pssh                         wasmer
+docker-completion            legit                        pulumi                       watson
+docker-compose               lego                         pushpin                      wcslib
+docker-slim                  leiningen                    pwntools                     webdis
+docker-squash                lgogdownloader               pygitup                      webpack
+doctl                        libarchive                   pygments                     webtorrent-cli
+dpkg                         libcbor                      pyinvoke                     whistle
+dub                          libcouchbase                 pylint                       wildfly-as
+duplicity                    libev                        python                       wireguard-tools
+dvc                          libfido2                     python@3.8                   wp-cli-completion
+dxpy                         libgr                        pytouhou                     wpscan
+e2fsprogs                    libhdhomerun                 pyvim                        wtfutil
+eccodes                      libmwaw                      qalculate-gtk                wxmaxima
+eg-examples                  libnet                       radare2                      x3270
+elvish                       libnids                      rakudo                       x86_64-elf-gcc
+emscripten                   libphonenumber               rancid                       xmrig
+ensmallen                    libqalculate                 re-flex                      xonsh
+erlang                       librealsense                 recon-ng                     xrootd
+esptool                      libsecret                    redis                        xtensor
+etcd                         libspectre                   remarshal                    yaegi
+ethereum                     libtcod                      rex                          yamllint
+etsh                         libtommath                   ripgrep                      yapf
+ettercap                     libtorrent-rasterbar         rke                          ydcv
+exploitdb                    libuninameslist              rocksdb                      ykman
+ext2fuse                     libuv                        root                         you-get
+eye-d3                       libvirt                      rst-lint                     youtube-dl
+faiss                        libwebsockets                rtv                          z
+fastlane                     libzdb                       run                          zabbix-cli
+fd                           liquibase                    rust                         zeek
+fdroidserver                 liquigraph                   s3cmd                        zola
+fio                          literate-git                 saxon
+firebase-cli                 lolcat                       sbjson
+[34m==>[0m [1mDeleted Formulae[0m
+apache-zeppelin
+[34m==>[0m [1mUpdated Casks[0m
+115browser                             goland                                 prezi-next
+1password                              goodsync                               prince
+1password-cli                          google-chrome                          prismatik
+a-better-finder-rename                 google-cloud-sdk                       pritunl
+abstract                               gqrx                                   proclaim
+ace-link                               grandtotal                             propresenter
+acquia-dev                             haptickey                              protonmail-bridge
+activedock                             hashbackup                             protopie
+activitywatch                          hbuilderx                              proxyman
+adobe-acrobat-reader                   historyhound                           prusaslicer
+adobe-connect                          hook                                   psychopy
+adoptopenjdk                           horos                                  publish-or-perish
+advancedrestclient                     i1profiler                             puppetry
+adventure                              iconjar                                pycharm
+aerial                                 icq                                    pycharm-ce
+agenda                                 iina-plus                              pycharm-edu
+agfeo-dashboard                        imazing                                pyfa
+aimersoft-video-converter-ultimate     inkdrop                                qbittorrent
+airdroid                               inkscape                               qcad
+airtame                                insync                                 qctools
+alacritty                              integrity                              qgis
+alfred                                 intellij-idea                          qgroundcontrol
+algodoo                                intellij-idea-ce                       qlab
+alt-tab                                ipfs                                   qownnotes
+altdeploy                              irccloud                               qq
+amadeus-pro                            ithoughtsx                             qqlive
+amazon-chime                           izip                                   qsync-client
+amethyst                               jabref                                 querious
+amitv87-pip                            jalbum                                 questrade-iq-edge
+android-ndk                            jamf-migrator                          quicken
+android-platform-tools                 jami                                   quip
+angry-ip-scanner                       java                                   r
+anki                                   jaxx-liberty                           rambox
+another-redis-desktop-manager          jclasslib-bytecode-viewer              razorsql
+antconc                                jdownloader                            rcloneosx
+anydo                                  joplin                                 react-native-debugger
+appcleaner                             jprofiler                              react-studio
+appcode                                julia                                  realm-studio
+appgate-sdp-client                     kapitainsky-rclone-browser             rectangle
+aria2d                                 katalon-studio                         red
+ark-desktop-wallet                     keep-it                                refined-github-safari
+arq                                    keepassxc                              rekordbox
+aspera-connect                         keka                                   remembear
+astah-professional                     keybase                                remember-the-milk
+astropad                               keymanager                             remoteviewer
+atom                                   keystore-explorer                      remotix-agent
+audirvana                              kite                                   resolume-arena
+avocode                                kitematic                              retroarch
+awa                                    kitty                                  rhinoceros
+axe-edit-iii                           kiwi-for-g-suite                       ridibooks
+azure-data-studio                      kode54-cog                             rightfont
+backblaze                              krita                                  riot
+baidunetdisk                           lab                                    ripcord
+balenaetcher                           lando                                  roblox
+balsamiq-wireframes                    lark                                   roboform
+banking-4                              lastpass                               rocket-chat
+battlescribe                           lazarus                                rubymine
+bbedit                                 lbry                                   runway
+beaker-browser                         lehreroffice                           sabaki
+bisq                                   lepton                                 sapmachine-jdk
+bitcoin-core                           libreoffice                            screenflick
+bitwarden                              libreoffice-language-pack              scrutiny
+bitwig-studio                          lilypond                               second-life-viewer
+blender                                lingon-x                               securityspy
+blocs                                  livechat                               sensei
+bloodhound                             local                                  serviio
+blue-jeans                             loginputmac                            session
+bob                                    logos                                  sherlock
+bonjour-browser                        loom                                   shift
+bookmacster                            loopback                               shimo
+borgbackup                             losslesscut                            shotcut
+bot-framework-emulator                 lrtimelapse                            sia-ui
+boxer                                  lunar                                  sidenotes
+brave-browser                          lyricsx                                sidequest
+burp-suite                             maccy                                  signal
+butt                                   macgamestore                           simplenote
+cacher                                 macpass                                simsim
+camtasia                               macpilot                               sitebulb
+camunda-modeler                        macs-fan-control                       sizzy
+captin                                 macupdater                             skim
+cardhop                                mailbutler                             skype
+chessx                                 maintenance                            slack
+chromium                               malus                                  slite
+chronicle                              malwarebytes                           smartgit
+chrysalis                              marginnote                             smooze
+clashx                                 marked                                 softraid
+cleanmymac                             marsedit                               soulver
+clion                                  marvel                                 soundflower
+clockify                               mathpix-snipping-tool                  soundsource
+clone-hero                             max                                    springtoolsuite
+cmake                                  mblock                                 stella
+cockatrice                             mdrp                                   stoplight-studio
+cocktail                               megahertz-knotes                       studio-3t
+cocoaspell                             megasync                               subler
+cocoscreator                           mellow                                 sunsama
+commander-one                          melodics                               supercollider
+comparemerge                           mendeley-reference-manager             superproductivity
+composercat                            merlin-project                         swiftformat-for-xcode
+contexts                               metasploit                             swish
+cookie                                 metaz                                  switchkey
+cutter                                 meteorologist                          teamspeak-client
+cycling74-max                          microsoft-edge                         teamviewer
+data-integration                       microsoft-excel                        telavox-flow
+data-science-studio                    microsoft-office                       telegram-desktop
+datagrip                               microsoft-powerpoint                   tencent-lemon
+dbeaver-community                      microsoft-word                         termius
+dcp-o-matic                            midikeys                               textexpander
+dcp-o-matic-batch-converter            miktex-console                         textmate
+dcp-o-matic-encode-server              milanote                               texworks
+dcp-o-matic-kdm-creator                milkman                                the-battle-for-wesnoth
+dcp-o-matic-player                     min                                    thedesk
+deeper                                 mindforger                             thingsmacsandboxhelper
+deezer                                 minitube                               thonny
+default-folder-x                       mjml                                   thunder
+diskcatalogmaker                       mobirise                               thunderbird
+djay-pro                               mochi                                  ticktick
+dmm-player                             mockplus                               timeular
+dmm-player-for-chrome                  monero-wallet                          timing
+docker                                 moneywiz                               tinderbox
+dotnet-sdk                             mudlet                                 toggl
+downie                                 multitouch                             tor-browser
+duefocus                               murus                                  touchdesigner
+duet                                   mutify                                 touchosc-editor
+dust3d                                 navicat-data-modeler                   trilium-notes
+eagle                                  navicat-data-modeler-essentials        trinity
+ebmac                                  navicat-for-mariadb                    tunnelblick
+eclipse-dsl                            navicat-for-mysql                      tuple
+eclipse-ide                            navicat-for-oracle                     turbovnc-viewer
+eclipse-installer                      navicat-for-postgresql                 typeface
+eclipse-java                           navicat-for-sql-server                 understand
+eclipse-jee                            navicat-for-sqlite                     unity
+eclipse-modeling                       navicat-premium                        unity-android-support-for-editor
+eclipse-php                            navicat-premium-essentials             unity-download-assistant
+eclipse-rcp                            neo4j                                  unity-ios-support-for-editor
+eclipse-testing                        netron                                 unity-lumin-support-for-editor
+electerm                               next                                   unity-webgl-support-for-editor
+electron                               nosqlbooster-for-mongodb               unity-windows-support-for-editor
+electron-cash                          notebooks                              universal-media-server
+electron-fiddle                        nvidia-geforce-now                     upwork
+electronmail                           ocenaudio                              use-engine
+eloston-chromium                       odrive                                 veusz
+engine-prime                           ogdesign-eagle                         virtualhostx
+enpass                                 omnifocus                              visual-paradigm
+epic-games                             omnigraffle                            visual-paradigm-ce
+espresso                               omnioutliner                           visual-studio
+eventstore                             omniplan                               visual-studio-code
+exodus                                 onyx                                   vivaldi
+expressions                            opencore-configurator                  vmware-fusion
+expressvpn                             openrct2                               vmware-horizon-client
+family-tree-builder                    openwebstart                           vrep
+fanny                                  opera                                  vscodium
+fantastical                            oracle-jdk                             vuescan
+feishu                                 oracle-jdk-javadoc                     vyprvpn
+filebot                                orange                                 waterfox-current
+firecamp                               origin                                 wavebox
+firefox                                outline-manager                        webcatalog
+flash-npapi                            panda                                  webstorm
+flash-player                           papers                                 wechatwebdevtools
+flash-player-debugger                  parallels                              wechatwork
+flash-player-debugger-npapi            parallels-client                       whalebird
+flash-player-debugger-ppapi            patchwork                              whatsapp
+flash-ppapi                            path-finder                            wickrme
+flipper                                pd-l2ork                               wire
+fliqlo                                 pdf-expert                             wireshark
+flock                                  pdfsam-basic                           wkhtmltopdf
+fly                                    permute                                wpsoffice
+folx                                   phpstorm                               xamarin-android
+fontforge                              pixelsnap                              xamarin-mac
+fontgoggles                            plan                                   xamarin-profiler
+fork                                   platelet                               xaos
+freeze                                 plex-media-player                      ximalaya
+frescobaldi                            plex-media-server                      xmind-zen
+frhelper                               plistedit-pro                          yandexradio
+futuniuniu                             podolski                               yate
+geph                                   pomotroid                              yinxiangbiji
+gifox                                  popo                                   youdaonote
+gisto                                  portfolioperformance                   zalo
+gitfinder                              postico                                zeplin
+github                                 postman                                zoho-mail
+gitkraken                              power-manager                          zoomus
+glyphs                                 powerphotos                            zotero
+godot                                  praat                                  zulu
+godot-mono                             preform
+[34m==>[0m [1mDeleted Casks[0m
+blueservice            coyim                  ichm                   mollyguard             yabumi
+cathode                google-nik-collection  kompozer               pphelper
+colloquy               hackety-hack           lisanet-gimp           stamp
+
+[1mUsage: brew[0m [1minstall[0m [[4moptions[0m] [4mformula[0m
+
+Install [4mformula[0m. Additional options specific to [4mformula[0m may be appended to
+the command.
+
+Unless [1mHOMEBREW_NO_INSTALL_CLEANUP[0m is set, [1mbrew cleanup[0m will then be run for
+the installed formulae or, every 30 days, for all formulae.
+
+    -d, --debug                      If brewing fails, open an interactive
+                                     debugging session with access to IRB or a
+                                     shell inside the temporary build directory.
+        --env                        If [1mstd[0m is passed, use the standard build
+                                     environment instead of superenv. If [1msuper[0m
+                                     is passed, use superenv even if the formula
+                                     specifies the standard build environment.
+        --ignore-dependencies        An unsupported Homebrew development flag to
+                                     skip installing any dependencies of any
+                                     kind. If the dependencies are not already
+                                     present, the formula will have issues. If
+                                     you're not developing Homebrew, consider
+                                     adjusting your PATH rather than using this
+                                     flag.
+        --only-dependencies          Install the dependencies with specified
+                                     options but do not install the formula
+                                     itself.
+        --cc                         Attempt to compile using the specified
+                                     [4mcompiler[0m, which should be the name of the
+                                     compiler's executable, e.g. [1mgcc-7[0m for GCC
+                                     7. In order to use LLVM's clang, specify
+                                     [1mllvm_clang[0m. To use the Apple-provided
+                                     clang, specify [1mclang[0m. This option will
+                                     only accept compilers that are provided by
+                                     Homebrew or bundled with macOS. Please do
+                                     not file issues if you encounter errors
+                                     while using this option.
+    -s, --build-from-source          Compile [4mformula[0m from source even if a
+                                     bottle is provided. Dependencies will still
+                                     be installed from bottles if they are
+                                     available.
+        --force-bottle               Install from a bottle if it exists for the
+                                     current or newest version of macOS, even if
+                                     it would not normally be used for
+                                     installation.
+        --include-test               Install testing dependencies required to
+                                     run [1mbrew test[0m [4mformula[0m.
+        --devel                      If [4mformula[0m defines it, install the
+                                     development version.
+        --HEAD                       If [4mformula[0m defines it, install the HEAD
+                                     version, aka. master, trunk, unstable.
+        --fetch-HEAD                 Fetch the upstream repository to detect if
+                                     the HEAD installation of the formula is
+                                     outdated. Otherwise, the repository's HEAD
+                                     will only be checked for updates when a new
+                                     stable or development version has been
+                                     released.
+        --keep-tmp                   Retain the temporary files created during
+                                     installation.
+        --build-bottle               Prepare the formula for eventual bottling
+                                     during installation, skipping any
+                                     post-install steps.
+        --bottle-arch                Optimise bottles for the specified
+                                     architecture rather than the oldest
+                                     architecture supported by the version of
+                                     macOS the bottles are built on.
+    -f, --force                      Install without checking for previously
+                                     installed keg-only or non-migrated
+                                     versions.
+    -v, --verbose                    Print the verification and postinstall
+                                     steps.
+        --display-times              Print install times for each formula at the
+                                     end of the run.
+    -i, --interactive                Download and patch [4mformula[0m, then open a
+                                     shell. This allows the user to run
+                                     [1m./configure --help[0m and otherwise
+                                     determine how to turn the software package
+                                     into a Homebrew package.
+    -g, --git                        Create a Git repository, useful for
+                                     creating patches to the software.
+    -h, --help                       Show this message.
+[31mError:[0m invalid option: -H
+]0;~/Documents/gabyd.github.io(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ curl 'https://services.realestate.com.au/services/li stings/summaries/search?query=\{%22channel%22:%22rent%22,%22filters%22:\{%22surroundingSuburbs%22:%22true%22,%22exc ludeTier2%22:%22true%22,%22geoPrecision%22:%22address%22,%22excludeAddressHidden%22:%22true%22\},%22boundingBoxSear ch%22:\[-37.861239011682045,144.97354236818848,-37.78232035301419,145.09181705690918\],%22pageSize%22:%22500%22\}'  -H 'authority: services.realestate.com.au' -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWeb Kit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36' -H 'sec-fetch-dest: empty' -H 'accept: /' -H 'or igin: https://www.realestate.com.au' -H 'sec-fetch-site: same-site' -H 'sec-fetch-mode: cors' -H 'referer: https:// www.realestate.com.au/rent/in-richmond,+vic+3121%3b+hawthorn,+vic+3122%3b+burnley,+vic+3121%3b+cremorne,+vic+3121/m ap-1?activeSort=list-date' -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' --compressed
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 406 Not Acceptable</title>
+</head>
+<body><h2>HTTP ERROR 406</h2>
+<p>Problem accessing /services/listings/summaries/search. Reason:
+<pre>    Not Acceptable</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/Documents/gabyd.github.io[?1034h(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ hugo server
+[?25lBuilding sites … [?25h[K
+                   | EN  
+-------------------+-----
+  Pages            | 81  
+  Paginator pages  |  0  
+  Non-page files   | 17  
+  Static files     |  8  
+  Processed images | 25  
+  Aliases          | 18  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 664 ms
+Watching for changes in /Users/gabrieladsouza/Documents/gabyd.github.io/{content,static,themes}
+Watching for config changes in /Users/gabrieladsouza/Documents/gabyd.github.io/config.toml, /Users/gabrieladsouza/Documents/gabyd.github.io/config/_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+^C]0;~/Documents/gabyd.github.io(base) Gabrielas-MacBook-Pro-2:gabyd.github.io gabrieladsouza$ 

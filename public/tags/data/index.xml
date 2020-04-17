@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data | Gabriela D&#39;Souza</title>
+    <link>/tags/data/</link>
+      <atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Data</title>
+      <link>/tags/data/</link>
+    </image>
+    
+    <item>
+      <title>Unlocking data in the public interest</title>
+      <link>/project/unlocking_data_public_interest/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/unlocking_data_public_interest/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
